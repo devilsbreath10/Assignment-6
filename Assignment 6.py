@@ -1,14 +1,11 @@
 # Function creation
 def ds(roll_no, name):
  # List creation
-    ls=[]
-    ls.append(roll_no)
-    ls.append(name)
+    ls=[roll_no,name]
     print("List: ",ls)
 
  # Tuple creation
-    tup_ex = ()
-    tup_ex = tup_ex + (roll_no,) + (name,) #If no comma is given it will show TypeError!!
+    tup_ex=(roll_no,name)
     print("Tuple: ",tup_ex)
 
 # Set creation
